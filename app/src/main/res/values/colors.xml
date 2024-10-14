@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#6200EE</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="onSurface">#000000</color>
+    <color name="background">#F5F5F5</color>
+    <color name="splash_background">#FFFFFF</color>
+    <color name="primaryText">#000000</color>
+    <color name="your_link_color">#FCEE00FF</color>
+
+    <!-- Light theme colors -->
+    <color name="primaryVariant">#3700B3</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="secondaryVariant">#018786</color>
+    <color name="onSecondary">#000000</color>
+    <color name="error">#B00020</color>
+    <color name="onError">#FFFFFF</color>
+
+    <!-- Dark theme colors -->
+    <color name="primaryDark">#BB86FC</color>
+    <color name="primaryVariantDark">#3700B3</color>
+    <color name="onPrimaryDark">#000000</color>
+    <color name="secondaryDark">#03DAC6</color>
+    <color name="secondaryVariantDark">#018786</color>
+    <color name="onSecondaryDark">#FFFFFF</color>
+    <color name="backgroundDark">#121212</color>
+    <color name="surfaceDark">#1E1E1E</color>
+    <color name="onSurfaceDark">#FFFFFF</color>
+    <color name="errorDark">#CF6679</color>
+    <color name="onErrorDark">#000000</color>
+</resources>

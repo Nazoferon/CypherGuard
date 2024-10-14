@@ -1,0 +1,115 @@
+<resources>
+<!--    MainActivity-->
+    <string name="app_name">CypherGuard</string>
+    <string name="encryption_method">Метод шифрування</string>
+    <string name="caesar_method">Метод Цезаря</string>
+    <string name="vigenere_method">Метод Віженера</string>
+    <string name="action">Дія</string>
+    <string name="encrypt">Шифрувати</string>
+    <string name="decrypt">Дешифрувати</string>
+    <string name="additional_options">Додаткові опції</string>
+    <string name="settings">Налаштування</string>
+    <string name="help_and_instructions">Допомога та інструкції</string>
+    <string name="about_author">Інформація про застосунок</string>
+<!--    activity_caesar_decryption-->
+    <string name="decrypt_input_text">Введіть текст для дешифрування</string>
+    <string name="decrypt_shift">Зсув (ціле число)</string>
+    <string name="decrypt_output_text">Дешифрований текст</string>
+    <string name="copy">Копіювати</string>
+    <string name="share">Поділитися</string>
+    <string name="clear">Очистити</string>
+    <string name="back">Назад</string>
+    <string name="fill_all_fields">Будь ласка, заповніть всі поля</string>
+    <string name="text_copied">Текст скопійовано</string>
+    <string name="send_to">Надіслати текст…</string>
+    <string name="select_encryption_method">Будь ласка, виберіть метод шифрування</string>
+    <string name="select_dencryption_method">Будь ласка, виберіть метод дешифрування</string>
+    <string name="file_write_error">Error writing to file</string>
+    <string name="select_file">Обрати файл .txt</string>
+    <string name="non_latin_not_supported">Нелатинські символи не підтримуються</string>
+    <!--    activity_caesar_encryption.xml-->
+    <string name="encrpt_input_text">Введіть текст для шифрування</string>
+    <string name="encrpt_shift">Зсув (ціле число)</string>
+    <string name="encrpt">Зашифрувати</string>
+    <string name="encrpt_output_text">Зашифрований текст</string>
+    <string name="file_read_error">Помилка читання файлу</string>
+    <string name="file_save_error">Помилка збереження файлу</string>
+    <string name="cyrillic_not_supported">Файл містить символи кирилиці, які не підтримуються.</string>
+    <string name="file_saved_successfully">Файл успішно збережено</string>
+    <string name="share_options_title">Оберіть опцію поширення</string>
+    <string-array name="share_options">
+        <item>Поширити текстом</item>
+        <item>Поширити файлом</item>
+        <item>Зберегти на пристрій</item>
+    </string-array>
+
+<!--Віженер-->
+    <string name="encrpt_key">Ключ шифрування</string>
+    <string name="invalid_key">Неправильний ключ. Використовуйте лише літери.</string>
+    <string name="key_helper_text">Введіть ключове слово (лише букви)</string>
+    <string name="decrypt_key">Ключ дешифрування</string>
+
+    <!-- Settings strings -->
+    <string name="font_size">Ромір тексту</string>
+    <string name="save">Застосувати</string>
+
+
+    <string-array name="font_size_options">
+        <item>Малий</item>
+        <item>Стандартний</item>
+        <item>Великий</item>
+    </string-array>
+
+<!--About-->
+    <string name="about_title">Про додаток</string>
+    <string name="about_description">Цей додаток дозволяє вам шифрувати/дешифрувати текст на латині.</string>
+    <string name="about_version">Версія: 1.1</string>
+    <string name="about_developer">Розробник: Ганюк Назар Олександрович ІПЗ-23008бск</string>
+
+<!--    Help-->
+    <string name="help_content">
+    <![CDATA[
+    <h1>Ласкаво просимо до CypherGuard!</h1>
+    <p>Цей додаток дозволяє шифрувати та дешифрувати текст за допомогою методів Цезаря та Віженера.</p>
+
+    <h3>Метод Цезаря</h3>
+    <p>Метод Цезаря — це простий метод шифрування, при якому кожна літера в тексті зсувається на певну кількість позицій в алфавіті. Для шифрування та дешифрування тексту за методом Цезаря, виконайте наступні кроки:</p>
+    <ol>
+        <li>Виберіть метод Цезаря в головному меню.</li>
+        <li>Введіть текст для шифрування або дешифрування.</li>
+        <li>Введіть зсув (ціле число).</li>
+        <li>Натисніть кнопку "Зашифрувати" або "Розшифрувати".</li>
+    </ol>
+
+    <h3>Метод Віженера</h3>
+    <p>Метод Віженера — це більш складний метод шифрування, який використовує ключове слово для шифрування тексту. Кожна літера тексту шифрується за допомогою відповідної літери ключового слова. Для шифрування та дешифрування тексту за методом Віженера, виконайте наступні кроки:</p>
+    <ol>
+        <li>Виберіть метод Віженера в головному меню.</li>
+        <li>Введіть текст для шифрування або дешифрування.</li>
+        <li>Введіть ключ шифрування (лише букви).</li>
+        <li>Натисніть кнопку "Зашифрувати" або "Розшифрувати".</li>
+    </ol>
+
+    <h3>Використання додатку</h3>
+    <p>1. Виберіть метод шифрування (Цезаря або Віженера).</p>
+    <p>2. Введіть текст і ключ (якщо потрібно).</p>
+    <p>3. Натисніть кнопку "Зашифрувати" або "Розшифрувати".</p>
+
+    <h3>Налаштування</h3>
+    <p>Ви можете змінити налаштування додатку, натиснувши на кнопку "Налаштування".</p>
+
+    <h3>Допомога та інструкції</h3>
+    <p>Якщо у вас виникли питання або вам потрібна допомога, натисніть на кнопку "Допомога".</p>
+
+    <h3>Про автора</h3>
+    <p>Дізнайтеся більше про розробника, натиснувши на кнопку "Про автора".</p>
+    ]]>
+</string>
+
+    <string name="contact_us">Допомога</string>
+    <string name="contact_dialog_title">Зв\'язатися з нами</string>
+    <string name="contact_dialog_message">Якщо у вас є питання або потрібна допомога, будь ласка, зв\'яжіться з нами за допомогою наступних контактів:</string>
+    <string name="contact_email">ipz23-n.haniuk@nubip.edu.ua</string>
+    <string name="contact_phone">+1234567890</string>
+
+</resources>
